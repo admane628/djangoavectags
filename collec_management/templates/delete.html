@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Confirmation de supprission{% endblock %}
+
+{% block content %}
+
+<h1>Confirmer la suppression de la collection "{{c.title}}"</h1>
+<form method = "post">
+    {% csrf_token %}
+    <input type="hidden" name="delete" value="1">
+    <input type="submit" value="Confirmer">
+</form>
+
+{% endblock %}

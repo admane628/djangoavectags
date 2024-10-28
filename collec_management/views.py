@@ -26,3 +26,12 @@ def new(request):
 	else:
 		form = CollectionForm()
 		return render(request, "new.html", {"form": form})
+
+def delete(request, id):
+	c = get_object_or_404(Collec, id=id)
+	if request.method == 'POST':
+		if request.POST['delete'] == "1":
+			c.delete()
+			return redirect("all")
+	else:
+		return render(request, "delete.html", {"c": c})
