@@ -1,0 +1,29 @@
+Collec(title="Le Lion", description="Le lion est un grand félin connu pour sa crinière distinctive et son rôle en tant que prédateur au sommet de la chaîne alimentaire, vivant principalement en Afrique et dans certaines régions d'Asie.").save()
+
+Collec(title="La Baleine Bleue", description="La baleine bleue est le plus grand animal vivant sur Terre, atteignant jusqu'à 30 mètres de long, et se nourrit principalement de krill dans les océans du monde entier.").save()
+
+Collec(title="Le Panda Géant", description="Le panda géant est un mammifère herbivore originaire de Chine, célèbre pour son pelage noir et blanc et sa dépendance à un régime alimentaire composé presque exclusivement de bambou.").save()
+
+Collec(title="L'Aigle Royal", description="L'aigle royal est un grand oiseau de proie, reconnu pour sa puissance et sa capacité à voler à des altitudes élevées, chassant principalement des petits mammifères et des oiseaux.").save()
+
+Collec(title="Le Dauphin", description="Le dauphin est un mammifère marin intelligent, connu pour sa sociabilité et ses comportements ludiques, vivant en groupes appelés pods dans les océans et les mers du monde entier.").save()
+
+Collec(title="Le Caméléon", description="Le caméléon est un reptile célèbre pour sa capacité à changer de couleur, utilisant cette aptitude pour la communication, le camouflage et la régulation de sa température corporelle.").save()
+
+Collec(title="L'Éléphant", description="L'éléphant est le plus grand mammifère terrestre, connu pour sa mémoire exceptionnelle et ses comportements sociaux complexes, vivant en troupeaux dirigés par une matriarche.").save()
+
+Collec(title="Le Pingouin Empereur", description="Le pingouin empereur est la plus grande espèce de pingouin, célèbre pour sa capacité à survivre dans des conditions extrêmes en Antarctique, où il se reproduit pendant l'hiver.").save()
+
+Collec(title="Le Serpent à Sonnettes", description="Le serpent à sonnettes est un reptile venimeux connu pour son sifflement distinctif, produit par des écailles modifiées à l'extrémité de sa queue, utilisé pour avertir les prédateurs.").save()
+
+Collec(title="Le Koala", description="Le koala est un marsupial arboricole originaire d'Australie, célèbre pour son apparence mignonne et son régime alimentaire composé presque exclusivement de feuilles d'eucalyptus.").save()
+
+Collec(title="Le Tigre", description="Le tigre est le plus grand des félins, connu pour ses rayures uniques et sa puissance, vivant principalement dans les forêts d'Asie et étant un prédateur redoutable.").save()
+
+Collec(title="Le Flamant Rose", description="Le flamant rose est un oiseau aquatique célèbre pour sa couleur rose distinctive, qui provient de sa consommation de crustacés et d'algues, vivant souvent en colonies dans les zones humides.").save()
+
+Collec(title="Le Hérisson", description="Le hérisson est un petit mammifère nocturne, connu pour ses piquants qui le protègent des prédateurs, se nourrissant principalement d'insectes et de petits invertébrés.").save()
+
+Collec(title="Le Loup", description="Le loup est un mammifère carnivore social, vivant en meutes et connu pour sa capacité à chasser en groupe, jouant un rôle crucial dans l'écosystème en régulant les populations de proies.").save()
+
+Collec(title="Le Paon", description="Le paon est un oiseau connu pour son plumage coloré et ses plumes en éventail, souvent utilisé dans les rituels de parade nuptiale pour attirer les femelles.").save()
