@@ -5,6 +5,13 @@
     </head>
 
     <body>
+		<ul class="menu">
+		  <li class="menu"><a href="{% url 'index' %}">Accueil</a></li>
+		  <li class="menu"><a href="{% url 'all' %}">All</a></li>
+		  <li class="menu"><a href="{% url 'new' %}">New</a></li>
+		</ul>
+
+
     {% block content %}{% endblock content %}
     </body>
 </html>
