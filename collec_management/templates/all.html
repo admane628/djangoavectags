@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Liste des collections{% endblock %}
+
+{% block content %}
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<table>
+	<tr><td>Titre</td> <td>Date</td> <td>Lire</td></tr>
+	{% for c in collects %}
+		<tr><td>{{ c.title }}</td> <td>{{ c.date }}</td> <td><a href="{% url 'collection' c.id %}">Lien</a></td></tr>
+	{% endfor %}
+</table>
+{% endblock %}
