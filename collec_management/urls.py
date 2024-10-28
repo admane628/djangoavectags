@@ -9,4 +9,5 @@ urlpatterns = [
     path("all/", views.collections, name="all"),
     path("new/", views.new, name="new"),
     path("delete/<id>", views.delete, name="delete"),
+    path("change/<id>", views.change, name="change"),
 ]

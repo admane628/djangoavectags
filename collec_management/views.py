@@ -27,6 +27,19 @@ def new(request):
 		form = CollectionForm()
 		return render(request, "new.html", {"form": form})
 
+def change(request, id):
+	c = get_object_or_404(Collec, id=id)
+	if request.method == 'POST':
+		form = CollectionForm(request.POST)
+		if form.is_valid():
+			c.title = form.cleaned_data['title']
+			c.description = form.cleaned_data['description']
+			c.save()
+			return redirect("all")
+	else:
+		form = CollectionForm(instance=c)
+		return render(request, "change.html", {"form": form, "c":c})
+
 def delete(request, id):
 	c = get_object_or_404(Collec, id=id)
 	if request.method == 'POST':
